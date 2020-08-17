@@ -1,9 +1,4 @@
 # appium-pageobjectmodel
-Appium mobile test automation framework with Page Object Model design using Java + Maven + TestNG
-
-- Learn framework design step by step here (All parts): https://bit.ly/2SnDNx6
-- Appium Tutorials from basic to advanced here: https://bit.ly/2XuyBeU
-- Subscribe to my channel here: https://bit.ly/2HNsidp
 
 Technologies/Tools used in building the framework
 =================================================
@@ -40,4 +35,4 @@ Framework implements below best practices
 - Integrated with Log4J2 Logging framework (supports basic as well as parallel logging)
 - Integrated with Extent Reporting framework (supports parallel, screenshots, logging test steps)
 
-#AppiumTutorials #PageObjectModel #TestNG
+
