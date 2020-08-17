@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="EmulatorTest">
+		<parameter name="emulator" value="true" />
+		<parameter name="deviceName" value="Samsung Galaxy S8 Plus GoogleAPI Emulator" />
+		<parameter name="platformVersion" value="8.1" />
+		<parameter name="testname" value="emulator device"/>
+		<classes>
+			<class name="com.qa.tests.SauceDemoAppTest"></class>
+		</classes>
+	</test>
+
+	<test name="ReadlDeviceTest">
+		<parameter name="emulator" value="false" />
+		<parameter name="deviceName" value="1a23a4da-0bc4-4cc4-81f2-40a300fee187" />
+		<parameter name="platformVersion" value="10" />
+		<parameter name="testname" value="real device"/>
+		<classes>
+			<class name="com.qa.tests.SauceDemoAppTest"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Edge">
+		<parameter name="browserName" value="MicrosoftEdge" />
+		<parameter name="platformName" value="Windows 10" />
+		<parameter name="version" value="84.0" />
+		<parameter name="methodName" value="EdgeTest" />
+		<classes>
+			<class name="com.qa.tests.InstantSauceJunitTest"></class>
+		</classes>
+	</test>
+	<test name="Firefox">
+		<parameter name="browserName" value="firefox" />
+		<parameter name="platformName" value="Windows 10" />
+		<parameter name="version" value="43.0" />
+		<parameter name="methodName" value="FireFoxTest" />
+		<classes>
+			<class name="com.qa.tests.InstantSauceJunitTest"></class>
+		</classes>
+	</test>
+
+	<test name="Chrome">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="platformName" value="Windows 10" />
+		<parameter name="version" value="71.0" />
+		<parameter name="methodName" value="ChromeTest" />
+		<classes>
+			<class name="com.qa.tests.InstantSauceJunitTest"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
